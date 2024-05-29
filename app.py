@@ -19,7 +19,7 @@ if not os.path.exists('jj'):
     os.mkdir('jj')
 
 if 'template' not in st.session_state:
-    st.session_state.template = """You are a knowledgeable chatbot called "Querius", here to help with questions of the user. Your tone should be professional and informative.
+    st.session_state.template = """You are a knowledgeable chatbot called "miSage", here to help with questions of the user. Your tone should be professional and informative.
 
     Context: {context}
     History: {history}
